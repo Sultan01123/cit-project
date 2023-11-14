@@ -1,0 +1,14 @@
+.Footer{
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+.Footer-Image{
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+    transition: all 1s ease-in;
+}
+.Footer-Image:hover{
+    transform: rotate(360deg);
+}
