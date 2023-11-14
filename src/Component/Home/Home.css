@@ -1,0 +1,23 @@
+.Home{
+    size: 5px;
+    color: #000000;
+    background-color: white;
+}
+.Home-Image{
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    transition: all 1s ease-in;
+}
+.Home-Image:hover{
+    transform: rotate(360deg);
+}
+
+.center{
+  border: 5px solid;
+  position: absolute;
+  top: 50%;
+  margin-left: 40%;
+  transform: translate(0, -50%);
+  padding: 10px;
+}
